@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fergana OTM</title>
+    <link rel="stylesheet" href="style.css/otm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <div class="container">
+            <div class="logo_info">
+                <img src="imgs/photo_2023-05-01_14-03-00.jpg" alt="Sayt Logotipi" class="logo">
+                <h1>Fergana OTM</h1>
+            </div>
+
+            <div class="btns">
+                <button class="icon-button">
+                    <i class="fa-solid fa-sun fa-fade fa-2xl"></i>sun/moon
+                </button>
+
+                <button class="user-button">
+                    <i class="fa-solid fa-user fa-bounce fa-2xl"></i>
+                    <div id="user">
+                        <span>user</span>
+                    </div>
+                </button>
+                <div class="user-form">
+                    <h3>O'zingiz haqingizda ma'lumot bering</h3>
+                    <label for="address">
+                        <strong>Yashash joyingizni kiriting: </strong> <br>
+                        <input type="text" placeholder="Yashash Joyi" id="address">
+                    </label>
+                    <br>
+
+                    <label for="name">
+                        <strong>Ismingizni kiriting: </strong> <br>
+                        <input type="text" placeholder="Ismingiz" id="name">
+                    </label>
+                    <br>
+
+                    <label for="email">
+                        <strong>Emailingizni kiriting: </strong> <br>
+                        <input type="email" placeholder="email" id="email">
+                    </label>
+                    <br>
+
+                    <label for="password">
+                        <strong>password kiriting: </strong> <br>
+                        <input type="password" placeholder="password" id="password">
+                    </label>
+
+                    <div class="end-button">
+                        <button>Saqlash</button>
+                        <button>Bekor qilish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+
+
+        <div class="imgdarvoza">
+            <img src="imgs/Fargona_darvozasi.jpeg" alt="" width="100%" height="500px">
+        </div>
+        <h2 align="center">Fargonada joylashgan universitetlar</h2>
+
+        <div class="seach">
+            <input type="text" id="searchInput" class="search-box" placeholder="Qidiruv so'zini kiriting...">
+            <button class="icon-button" onclick="search()">
+                <i class="fa-solid fa-magnifying-glass fa-xs"> seach
+                </i>
+            </button>
+
+        </div>
+
+    </main>
+    <div class="fargonaotm">
+        <ul> <img src="imgs/images.png" alt="TATU Logotipi" class="otmlogo">
+            <li><a href="tatu.html">TATU fargona firali</a></li>
+            <img src="imgs/700 (1).png" alt="samfak Logotipi" class="otmlogo">
+            <li><a href="samfak.html">Farg'ona jamoat salomatligi tibbiyot insituti</a></li>
+            <img src="imgs/logo4.jpg" alt="politex Logotipi" class="otmlogo">
+            <li><a href="politex.html">Farg'ona politexnika instituti</a></li>
+            <img src="imgs/0e475997-3018-48e2-ab41-51aa4cab2f5d.webp" alt="TATU Logotipi" class="otmlogo">
+            <li><a href="fardu.html">Farg'ona davlat universiteti</a></li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024. Sayt yaratuvchisi Parpiboyev Sayrambek.</p>
+    </footer>
+    <script src="javascript.js/otm.js"></script>
+</body>
+
+</html>

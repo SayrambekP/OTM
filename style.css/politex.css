@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+   
+    color: hsl(0, 8%, 7%);
+    padding: 10px 0;
+    text-align: center;
+}
+.flogo{
+          
+    text-align: center;
+       line-height: 200px;
+       padding-top: 100px;
+    }
+    .logotif{
+     max-width: 200px;
+     min-width: 200px;
+     border:15px hsl(87, 94%, 52%)  solid;
+    border-radius: 50%;}
+nav {
+    margin: 10px 0;
+}
+nav a {
+    color: rgb(13, 11, 11);
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover{
+    border: hwb(275 54% 16%) 2px solid;
+    background-color:hwb(275 54% 16%);
+  }
+section {
+    padding: 20px;
+    background: #ffffff;
+    margin: 10px;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.img{
+      align-items: center;
+      border: 5px inset red;
+      margin: 50px;
+      padding: 10px;
+  }
